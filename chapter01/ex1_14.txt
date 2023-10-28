@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/2950931/for-vs-while-in-c-programming
+
+for 循环和 while 循环是可以相互转换的。
+
+for 循环适用于循环次数已知的情况，而 while 循环适用于循环次数未知的情况
+
+for 循环中控制变量的初始化，条件检查和控制变量的修改在开头第一句中。while 循环中控制变量的初始化在循环体外，条件检查在while 的第一句中，而控制变量的修改在循环体中。
