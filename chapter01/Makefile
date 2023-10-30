@@ -5,11 +5,9 @@ SRCEXT = cc
 SOURCES = $(wildcard *.$(SRCEXT))
 OBJECTS = $(patsubst %.$(SRCEXT),%.o,$(SOURCES))
 
-TARGETS = $(patsubst %.cc,%.exe,$(SOURCES))
-
+TARGETS = $(patsubst %.cc,%,$(SOURCES))
 
 all:$(TARGETS)
-
 
 %:%.o
 	$(CXX) $(CXXFLAGS) -c $< -o $@

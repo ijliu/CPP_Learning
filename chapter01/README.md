@@ -16,5 +16,8 @@ page 18-22 的内容要用到 Sales_item.h 文件，后续补充。
 ```shell
 $ make
 $ prog1.exe
+$ make clean
 ```
+
+> 问题：在 git bash 中使用 make clean 可以根据文件名删除 <文件名>.exe 文件，但是在 cmd 中无法删除。
 
